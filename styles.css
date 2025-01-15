@@ -1,3 +1,46 @@
-/* Your Styles Here */
-body{
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.card .major/year {
+    font-size: 18px;
+    color: #555555;
+    margin: 5px 0;
+}
+
+.card .from {
+    font-size: 18px;
+    color: #555555;
+    margin: 5px 0;
+}
+
+.card .passion {
+    font-size: 18px;
+    color: #555555;
+    margin: 5px 0;
 }
